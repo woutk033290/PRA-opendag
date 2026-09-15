@@ -20,7 +20,7 @@ body {
 .page {
     max-width: 1000px;
     width: 100%;
-    background: #f9fafb;
+    background: #FFCC00;
     border-radius: 18px;
     box-shadow: 0 20px 40px rgba(15, 23, 42, 0.45);
     overflow: hidden;
@@ -29,7 +29,7 @@ body {
 
 /* Header */
 .header {
-    background: linear-gradient(135deg, #2563eb, #22c55e);
+    background: #F8AECD;
     color: #f9fafb;
     text-align: center;
     padding: 28px 24px 22px;
@@ -59,7 +59,7 @@ body {
 /* Cards */
 .card {
     padding: 20px 18px;
-    border-radius: 14px;
+   
     position: relative;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(15, 23, 42, 0.12);
@@ -78,30 +78,24 @@ body {
     margin-bottom: 8px;
 }
 
-/* Kleuren per blok */
-.card-blue {
-    background: radial-gradient(circle at top left, #dbeafe, #eff6ff);
-    border-color: #60a5fa;
+
+
+.card-color {
+    background: #78034B;
+    border-color: #78034B;
+    color: #FFCC00;
 }
 
-.card-yellow {
-    background: radial-gradient(circle at top left, #fef9c3, #fffbeb);
-    border-color: #facc15;
-}
 
-.card-green {
-    background: radial-gradient(circle at top left, #dcfce7, #f0fdf4);
-    border-color: #22c55e;
-}
 
 /* Footer */
 .footer {
     text-align: center;
     padding: 14px 18px 18px;
     font-size: 0.9rem;
-    color: #6b7280;
-    background: #e5e7eb;
-    border-top: 1px solid rgba(148, 163, 184, 0.5);
+    color: #f9fafb;
+    background: #F8AECD;
+    border-top: 1px solid #f9fafb;
 }
 
 /* Responsive tweaks */

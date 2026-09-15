@@ -15,7 +15,7 @@
 
         <main class="grid">
             
-            <section class="card card-blue">
+            <section class="card card-color">
                 <h2>Wat vind ik van de opleiding?</h2>
                 <p>
                     Ik vind dit een leuke opleiding omdat ik programmeren interessant vind en er veel uitdaging in zit.
@@ -27,7 +27,7 @@
             </section>
 
             
-            <section class="card card-yellow">
+            <section class="card card-color">
                 <h2>Kan je versnellen?</h2>
                 <p>
                     Ja, versnellen binnen de opleiding is zeker mogelijk wanneer je het niveau al goed beheerst
@@ -43,7 +43,7 @@
             </section>
 
             
-            <section class="card card-green">
+            <section class="card card-color">
                 <h2>Docenten</h2>
                 <p>
                     De docenten zijn vriendelijk en doen hun best om je zo goed mogelijk te begeleiden binnen
