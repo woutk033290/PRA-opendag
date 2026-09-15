@@ -51,18 +51,55 @@
                     is om vragen te stellen, samen te werken en je op je gemak te voelen tijdens de lessen.
                 </p>
             </section>
-
+            </main>
             <img src="/image.png" alt="">
 
-            
+         
+            <section class="info-bar">
+             <div class="info-buttons">
+                 <button onclick="toggleInfo('rooster')">Bekijk schoolrooster</button>
+                 <button onclick="toggleInfo('levels')">Levels</button>
+             </div>
+
+             <div id="info-content" class="info-content">
+                
+                 <img id="info-image" src="" alt="" style="display:none;">
+             </div>
+            </section>
 
 
 
-        </main>
+    <script>
+function toggleInfo(type) {
+    const img = document.getElementById('info-image');
+    const container = document.getElementById('info-content');
+
+    
+    const images = {
+        rooster: "/Rooster.png",
+        levels: "/Levels.png"
+    };
+
+    
+    if (img.src.includes(images[type])) {
+        img.style.display = "none";
+        img.src = "";
+        return;
+    }
+
+    
+    img.src = images[type];
+    img.style.display = "block";
+}
+</script>
+
+       
 
         <footer class="footer">
             <p>Curio · Software Developer · Bergen op Zoom</p>
         </footer>
     </div>
+
+
 </body>
 </html>
