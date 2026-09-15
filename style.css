@@ -86,7 +86,9 @@ body {
     color: #FFCC00;
 }
 
-
+img {
+width: 314%;
+}
 
 /* Footer */
 .footer {

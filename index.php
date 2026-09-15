@@ -51,6 +51,13 @@
                     is om vragen te stellen, samen te werken en je op je gemak te voelen tijdens de lessen.
                 </p>
             </section>
+
+            <img src="/image.png" alt="">
+
+            
+
+
+
         </main>
 
         <footer class="footer">
